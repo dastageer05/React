@@ -11,21 +11,23 @@ function App() {
   const dispatch = useDispatch()
 
   // useEffect(() => {
-  //   try{
-  //     authService.getCurrentUser()
-  //     .then((userData) => {
+  //   const checkAuth = async () => {
+  //     try {
+  //       const userData = await authService.getCurrentUser();
   //       if (userData) {
-  //         dispatch(login({ userData }))
+  //         dispatch(login({ userData }));
   //       } else {
-  //         dispatch(logout())
+  //         dispatch(logout());
   //       }
-  //     })
-  //   }
-  //   catch(error){
-  //     console.log("useEffect :: getCurrentuser :: error", error);
-  //   }
-  //   finally{() => setLoading(false)}
-  // }, [])
+  //     } catch (error) {
+  //       console.log("useEffect :: getCurrentuser :: error", error);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
+
+  //   checkAuth();
+  // }, [dispatch]);
 
   useEffect(() => {
     authService.getCurrentUser()
