@@ -1,0 +1,26 @@
+// let word='fire';
+  // useEffect (()=>{
+  //   setScore(prevscore => prevscore+ sscore);
+  //   for (const key in items) {
+  //     if (Object.hasOwnProperty.call(items, key)) {
+  //       setItem(key)
+  //     }
+  //   }
+  // },[score])
+
+  // useEffect(() => {
+  //   if (userWordList.length > 0) {
+  //     const sscore = (userWordList)=>{100-(userWordList.length *10)};
+  //     setScore(prevScore => prevScore + sscore);
+  //   }
+  // }, [userWordList]);
+
+  // let ssscore =()=>{
+  //   setScore(prevscore => prevscore + sscore());
+  //   for (const i in items){
+  //     if (Object.hasOwnProperty.call(items,i)){
+  //       let word = items[i+1]
+  //       setItem(word)
+  //     }
+  //   }
+  // }
