@@ -1,21 +1,14 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback } from "react";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {}, []);
-
-  return (
+function App(){
+    
+    
+    return(
     <>
-      <div className="card">
-      <h1>Count: {count}</h1>
-        <button onClick={() => setCount((count) => count + 1)}>
-          click to increment
-        </button>
-      </div>
+    <h1 className="bg-green-300"> i am h1</h1>
     </>
-  );
+    );
 }
 
 export default App;
